@@ -1,0 +1,1 @@
+import {isDemo} from '../lib/api';export default function robots(){return {rules:{userAgent:'*',...(isDemo?{disallow:'/'}:{allow:'/'})}}}

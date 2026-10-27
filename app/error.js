@@ -1,0 +1,1 @@
+"use client";export default function ErrorPage({reset}){return <div className="shell section state" role="alert"><h1>Something went wrong.</h1><p>The content could not be loaded. Please try again or contact the association.</p><button className="button" onClick={reset}>Try again</button></div>}

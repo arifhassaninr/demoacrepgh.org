@@ -1,0 +1,1 @@
+import {Skeleton} from '../components/UI';export default function Loading(){return <div className="section shell"><Skeleton/></div>}

@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <div className="shell section state"><p className="eyebrow">404</p><h1>This page isn’t available.</h1><p>The property or page may have moved.</p><Link className="button" href="/listings">Browse properties ↗</Link></div>}
